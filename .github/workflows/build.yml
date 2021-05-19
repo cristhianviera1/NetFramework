@@ -16,12 +16,6 @@ jobs:
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
 
-      - name: Setup NuGet
-        uses: Nuget/Setup-nuget@1.0.2
-      
-      - name: Restore Packages
-        run: nuget restore ConsoleApp.sln
-
       - name: Build Solution
         run: |    
             msbuild.exe ConsoleApp.sln /p:platform="Any CPU" /p:configuration="Release"
