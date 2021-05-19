@@ -12,6 +12,7 @@ namespace ConsoleApp
         {
             Console.WriteLine("Test GitHub Actions");
             Console.WriteLine("Gabicho");
+            ERROR
             Console.ReadKey();
         }
     }
