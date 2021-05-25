@@ -23,7 +23,6 @@ namespace ConsoleApp
             Console.WriteLine("Test GitHub Actions - 20201");
             Console.WriteLine("Test doble commit");
             Console.WriteLine("Test arreglo comentario");
-
             Product product = new Product();
             product.Name = "Apple";
             product.ExpiryDate = new DateTime(2008, 12, 28);
