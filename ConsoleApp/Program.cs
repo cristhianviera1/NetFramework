@@ -13,6 +13,7 @@ namespace ConsoleApp
             ///esto es un comentario de prueba agregado
             Console.WriteLine("Test GitHub Actions - 20201");
             Console.WriteLine("Test doble commit");
+            Console.WriteLine("Test arreglo comentario");
             Console.ReadKey();
         }
     }
