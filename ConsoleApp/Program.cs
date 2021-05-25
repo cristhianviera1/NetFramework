@@ -10,6 +10,9 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test GitHub Actions20201");
+            Console.WriteLine("Test GitHub Actions");
+            Console.WriteLine("Test GitHub Actions");
             Console.WriteLine("Test GitHub Actions");
             Console.WriteLine("Gabicho");
             Console.WriteLine("Gabicho1");
