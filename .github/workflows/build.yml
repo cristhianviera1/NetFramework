@@ -2,9 +2,15 @@ name: "Build .NetFramework"
 
 on: 
   push:
-    branches: master
+    branches: 
+      - dev
+      - master
+      - beta
   pull_request:
-    branches: master
+    branches:
+      - dev
+      - master
+      - beta
 
 jobs:
   build:
